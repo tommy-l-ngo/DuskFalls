@@ -6,6 +6,7 @@
 },
 
 "traceEvents":[
+
 { "pid": 71424, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 71424, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 71424, "tid": 9, "ph": "M", "name": "thread_name", "args": { "name": "Thread Pool Worker" } },
@@ -1977,6 +1978,7 @@
 ,{ "pid": 71424, "tid": 9, "ts": 1754247250038746, "dur": 2149, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
 { "pid": 71424, "tid": 9, "ts": 1754247250040984, "dur": 2100, "ph": "X", "name": "backend1.traceevents", "args": {} },
 { "pid": 71424, "tid": 9, "ts": 1754247250033722, "dur": 10312, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+
 {}
 
 ]
