@@ -1,5 +1,6 @@
 trackSelection = true
 refreshSearchWindowsInPlayMode = false
+pickerAdvancedUI = false
 fetchPreview = true
 defaultFlags = 0
 keepOpen = false
@@ -11,11 +12,14 @@ scopes = {
 	"last_search.8DF93126" = "project sett"
 	"OpenInspectorPreview.8DF93126" = "0"
 	"currentGroup.8DF93126" = null
-	"picker_window_position_offset.075BCD15" = "112.6667;78.66667;486;650.6667"
+	"picker_window_position_offset.075BCD15" = "-68;78.66667;486;650.6667"
 	"picker_visibility_flags.075BCD15" = "264"
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
 	"picker_current_group.075BCD15" = "all"
+	"last_search.66F56946" = ""
+	"OpenInspectorPreview.66F56946" = "0"
+	"currentGroup.66F56946" = null
 }
 providers = {
 	find = {
@@ -72,6 +76,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
 	"project sertt"
 ]
 searchItemFavorites = [
@@ -87,3 +92,4 @@ helperWidgetCurrentArea = "all"
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
+itemIconSize = 32
