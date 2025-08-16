@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349.3334
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 38
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Settings
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -334,16 +334,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Settings
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\S7War\DuskFalls\DuskFalls
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4ca70000
-    m_LastClickedID: 42828
-    m_ExpandedIDs: 00000000d2a60000d4a6000000ca9a3bffffff7f
+    m_SelectedIDs: 04a70000
+    m_LastClickedID: 42756
+    m_ExpandedIDs: 000000008ca600008ea6000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -372,7 +372,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2a60000d4a60000
+    m_ExpandedIDs: 000000008ca600008ea60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a6a1000088ac000008ad0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -520,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1aa60000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: dcfaffff
+      m_ExpandedIDs: 78f1ffff3af2ffff16f4ffff42f5ffffe8f5ffffa2f6ffff7af7ffff78f8ffff94faffffa2ac0000caad0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1043,9 +1043,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.0150806, y: -1.3536686, z: 0.7203828}
+    m_Target: {x: 799.65137, y: 1924.1133, z: 3620.2249}
     speed: 2
-    m_Value: {x: 1.0150806, y: -1.3536686, z: 0.7203828}
+    m_Value: {x: 799.65137, y: 1924.1133, z: 3620.2249}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1091,13 +1091,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2685927, y: -0.021189261, z: 0.0059100096, w: 0.96299887}
+    m_Target: {x: 0.21818897, y: -0.6949758, z: 0.2357199, w: 0.6432907}
     speed: 2
-    m_Value: {x: -0.2685927, y: 0.021189261, z: -0.0059100096, w: -0.9629988}
+    m_Value: {x: 0.2194768, y: -0.6945084, z: 0.23711117, w: 0.64285797}
   m_Size:
-    m_Target: 5.0242267
+    m_Target: 116499.41
     speed: 2
-    m_Value: 5.0242267
+    m_Value: 111482.69
   m_Ortho:
     m_Target: 0
     speed: 2
