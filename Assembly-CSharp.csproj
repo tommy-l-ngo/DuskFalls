@@ -62,7 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager1.cs" />
+    <Compile Include="Assets\Scripts\PartyMemberInfo.cs" />
+    <Compile Include="Assets\Scripts\PartyManager.cs" />
     <Compile Include="Assets\Settings\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\EnemyInfo.cs" />
     <Compile Include="Assets\Input Settings\PlayerControls.cs" />
   </ItemGroup>
   <ItemGroup>
