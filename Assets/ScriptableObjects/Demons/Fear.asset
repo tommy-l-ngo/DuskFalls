@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b545ed89b750af4491d40011b73171c, type: 3}
-  m_Name: John
+  m_Script: {fileID: 11500000, guid: 1e638ab132c02d54ba0fc6c4e85db3d5, type: 3}
+  m_Name: Fear
   m_EditorClassIdentifier: 
-  MemberName: John
-  StartingLevel: 1
-  BaseHealth: 10
-  BaseStr: 5
-  BaseInitiative: 5
-  MemberBattleVisualPrefab: {fileID: 0}
-  MemberOverworldVisualPrefab: {fileID: 0}
+  EnemyName: 
+  BaseHealth: 0
+  BaseStr: 0
+  BaseInitiative: 0
+  EnemyVisualPrefab: {fileID: 0}
