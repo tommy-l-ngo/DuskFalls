@@ -8,13 +8,37 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private EnemyInfo[] allEnemies;
     [SerializeField] private List<Enemy> currentEnemies;
 
+    private static GameObject instance;
+
     private const float LEVEL_MODIFIER = 0.5f;
     
     private void Awake()
     {
-        GenerateEnemyByName("Slime",10);
+        if (instance != null)
+        { 
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this.gameObject;
+        }
+        DontDestroyOnLoad(gameObject);
     }
-        private void GenerateEnemyByName(string enemyName, int level)
+
+    public void GenerateEnemiesByEncounter(Encounter[] encounters, int maxNumEnemies)
+    {
+        currentEnemies.Clear();
+        int numEnemies = Random.Range(1, maxNumEnemies + 5);
+
+        for (int i = 0; i < numEnemies; i++)
+        {
+            Encounter tempEncounter = encounters[Random.Range(0, encounters.Length)];
+            int level = Random.Range(tempEncounter.LevelMin,tempEncounter.LevelMax +1);
+            GenerateEnemyByName(tempEncounter.Enemy.EnemyName, level);
+        }
+    }
+
+    private void GenerateEnemyByName(string enemyName, int level)
     {
         for (int i = 0; i < allEnemies.Length; i++)
         {
@@ -36,8 +60,14 @@ public class EnemyManager : MonoBehaviour
             }
 
         }
-
     }
+
+
+    public List<Enemy> GetCurrentEnemies()
+    {
+        return currentEnemies;
+    }
+}
 
     [System.Serializable]
     public class Enemy
@@ -51,4 +81,3 @@ public class EnemyManager : MonoBehaviour
         public GameObject EnemyVisualPrefab;
 
     }
-}
