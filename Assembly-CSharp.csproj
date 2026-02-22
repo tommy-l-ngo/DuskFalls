@@ -72,7 +72,6 @@
     <Compile Include="Assets\Scripts\PartyManager.cs" />
     <Compile Include="Assets\Settings\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\EnemyInfo.cs" />
-    <Compile Include="Assets\Scripts\CharacterManager.cs" />
     <Compile Include="Assets\Input Settings\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\MemberFollowAI.cs" />
   </ItemGroup>
