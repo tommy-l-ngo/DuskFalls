@@ -64,7 +64,6 @@
     <Compile Include="Assets\Scripts\EncounterSystem.cs" />
     <Compile Include="Assets\Scripts\BattleSystem.cs" />
     <Compile Include="Assets\Scripts\AnimationHelper.cs" />
-    <Compile Include="Assets\Scripts\JoinableCharacterScript.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\BattleVisuals.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="Assets\Settings\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\EnemyInfo.cs" />
     <Compile Include="Assets\Input Settings\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\MemberFollowAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Terrian\TextMesh Pro\Shaders\TMPro.cginc" />
