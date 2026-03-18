@@ -8,7 +8,7 @@ using UnityEngine.Rendering;
 public class BattleSystem : MonoBehaviour
 {
  
-    [SerializeField] private enum BattleState { Start, Selection, Battle, Won, Lost, Run};
+    private enum BattleState { Start, Selection, Battle, Won, Lost, Run }
     [Header("Battle State")]
     [SerializeField] private BattleState state;
 
