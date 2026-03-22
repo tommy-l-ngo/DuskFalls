@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T18:34:47.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyInfo.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T18:34:37.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -34,12 +68,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwEcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T01:05:36.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T01:05:36.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BattleSystem.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BattleSystem.cs",
@@ -51,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",

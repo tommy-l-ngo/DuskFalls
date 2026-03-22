@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Fey
   m_EditorClassIdentifier: 
   MemberName: 
-  StartingLevel: 0
-  BaseHealth: 0
+  StartingLevel: 1
+  BaseHealth: 15
   BaseStr: 0
   BaseInitiative: 0
   MemberBattleVisualPrefab: {fileID: 0}

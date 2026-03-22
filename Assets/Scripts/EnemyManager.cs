@@ -10,7 +10,7 @@ public class EnemyManager : MonoBehaviour
 
     private static GameObject instance;
 
-    private const float LEVEL_MODIFIER = 0.5f;
+    private const float LEVEL_MODIFIER = 2.0f;
     
     private void Awake()
     {
