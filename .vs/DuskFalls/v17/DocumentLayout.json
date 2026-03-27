@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\sceneswitches\\toc1shop4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\sceneswitches\\toc1shop4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\sceneswitches\\toc1shop1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneswitches\\toc1shop1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneSwitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\input settings\\battlecontrols 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\input settings\\battlecontrols 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +51,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ToC1Shop4.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitches\\ToC1Shop4.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneSwitches\\ToC1Shop4.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitches\\ToC1Shop4.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneSwitches\\ToC1Shop4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T03:02:11.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToC1Shop1.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitches\\ToC1Shop1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneSwitches\\ToC1Shop1.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitches\\ToC1Shop1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneSwitches\\ToC1Shop1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:50:50.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-02-22T01:20:25.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SceneSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneSwitch.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\SceneSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneSwitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:15:41.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BattleControls 1.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Input Settings\\BattleControls 1.cs",
+              "RelativeDocumentMoniker": "Assets\\Input Settings\\BattleControls 1.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Input Settings\\BattleControls 1.cs",
+              "RelativeToolTip": "Assets\\Input Settings\\BattleControls 1.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:01:58.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
@@ -42,12 +119,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:34:47.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:34:47.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EnemyInfo.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyInfo.cs",
@@ -55,12 +131,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:34:37.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:34:37.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -72,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "BattleSystem.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BattleSystem.cs",
@@ -81,17 +156,6 @@
               "ViewState": "AgIAAKIBAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T03:17:39.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@821b8547a8a5\\Shaders\\Lit.shader",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-02-22T01:20:25.301Z"
             }
           ]
         }

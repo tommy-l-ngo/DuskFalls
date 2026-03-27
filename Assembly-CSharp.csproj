@@ -67,10 +67,13 @@
     <Compile Include="Assets\Scripts\EncounterSystem.cs" />
     <Compile Include="Assets\Scripts\FeyController.cs" />
     <Compile Include="Assets\Scripts\BattleSystem.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitches\ToC1.cs" />
     <Compile Include="Assets\Scripts\PartyMemberInfo.cs" />
     <Compile Include="Assets\Scripts\PartyManager.cs" />
     <Compile Include="Assets\Settings\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\EnemyInfo.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitches\ToC2.cs" />
+    <Compile Include="Assets\Input Settings\BattleControls 1.cs" />
     <Compile Include="Assets\Scripts\AnimationHelper.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
