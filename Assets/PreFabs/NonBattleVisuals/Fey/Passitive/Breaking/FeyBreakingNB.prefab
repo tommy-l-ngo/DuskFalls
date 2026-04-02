@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7593327823070237029}
   - component: {fileID: 5128639794321386580}
   m_Layer: 7
-  m_Name: FeyPassiveNB
+  m_Name: FeyBreakingNB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

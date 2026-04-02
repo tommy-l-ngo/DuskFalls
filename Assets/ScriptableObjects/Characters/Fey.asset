@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e216615aa6a9a4f4eb617fb01d311ac9, type: 3}
   m_Name: Fey
   m_EditorClassIdentifier: 
-  MemberName: 
+  MemberName: Fey
   StartingLevel: 1
   BaseHealth: 15
   BaseStr: 0
   BaseInitiative: 0
-  MemberBattleVisualPrefab: {fileID: 0}
-  MemberOverworldVisualPrefab: {fileID: 0}
+  MemberBattleVisualPrefab: {fileID: 3495025961580586979, guid: 71dd24e63949ee74d85977522a81e37f,
+    type: 3}
+  MemberOverworldVisualPrefab: {fileID: 2533372911594888431, guid: b7e29323d5f39b541840e6936da52acb,
+    type: 3}
