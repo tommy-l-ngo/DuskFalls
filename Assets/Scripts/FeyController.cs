@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class FeyController : MonoBehaviour
 {
@@ -9,14 +10,35 @@ public class FeyController : MonoBehaviour
     private Vector2 moveDirection;
     private Animator animator;
 
+
     [Header("Animation")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     private bool isMoving = false;
 
+    //[Header("BattleControls")]
+    private BattleControls controls;
+
+    void Awake()
+    {
+        controls = new BattleControls();
+        controls.Player.QuickAttack.performed += ctx => {
+            Debug.Log("Quick Attack fired!");
+            animator.SetTrigger("BreakingQuick");
+        };
+        controls.Player.Combo1.performed += ctx => {
+            Debug.Log("Combo fired!");
+            animator.SetTrigger("BreakingCombo1");
+        };
+    }
+
+    void OnEnable() => controls.Enable(); // ADD THIS
+    void OnDisable() => controls.Disable(); // ADD THIS
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         // Set Rigidbody2D constraints
@@ -42,6 +64,10 @@ public class FeyController : MonoBehaviour
         else if (moveInput.x < 0)
             spriteRenderer.flipX = false;
 
+
+        Debug.Log("IsMoving: " + isMoving + " | Animator: " + animator); // ADD THIS
+
+
         // Update animator parameter
         if (animator != null)
         {
@@ -51,5 +77,5 @@ public class FeyController : MonoBehaviour
         // Move using direct position change (map vertical input to Z for 3D/top-down)
         Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
         transform.position += movement * moveSpeed * Time.deltaTime;
-    }
+      }
 }

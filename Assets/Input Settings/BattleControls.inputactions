@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "BattleControls 1",
+    "name": "BattleControls",
     "maps": [
         {
             "name": "Player",
@@ -16,18 +16,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Combo Attack",
+                    "name": "Quick Attack",
                     "type": "Button",
-                    "id": "56845465-3c22-418a-a719-b26c45b0f355",
+                    "id": "d03f3e6b-c726-4356-b4fc-f4c4999eff4c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Quick Attack",
+                    "name": "Combo 1",
                     "type": "Button",
-                    "id": "d03f3e6b-c726-4356-b4fc-f4c4999eff4c",
+                    "id": "da90292f-0aa4-42fc-bb49-b6c52cac1801",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "Press",
@@ -92,23 +92,23 @@
                 },
                 {
                     "name": "",
-                    "id": "3b28639c-730e-43ca-b12b-ecb16753bbc9",
+                    "id": "e609a394-06a3-47f5-91ec-d1da1155a94b",
                     "path": "<Keyboard>/e",
-                    "interactions": "Hold(duration=0.5)",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
-                    "action": "Combo Attack",
+                    "action": "Quick Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "e609a394-06a3-47f5-91ec-d1da1155a94b",
+                    "id": "8cf36411-b375-4af6-a124-9608c1dbb483",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Quick Attack",
+                    "action": "Combo 1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
