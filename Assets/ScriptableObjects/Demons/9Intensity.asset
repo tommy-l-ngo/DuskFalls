@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e638ab132c02d54ba0fc6c4e85db3d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c66465c9b46334488d16aa98d8c6c4b, type: 3}
   m_Name: 9Intensity
-  m_EditorClassIdentifier: 
-  EnemyName: 
-  BaseHealth: 0
-  BaseStr: 0
-  BaseInitiative: 0
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyInfo
+  EnemyName: Intensity
+  BaseHealth: 70
+  BaseStr: 70
+  BaseInitiative: 70
   EnemyVisualPrefab: {fileID: 0}

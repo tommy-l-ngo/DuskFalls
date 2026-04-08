@@ -107,7 +107,7 @@ public partial class @BattleControls: IInputActionCollection2, IDisposable
                     ""id"": ""d03f3e6b-c726-4356-b4fc-f4c4999eff4c"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -116,7 +116,7 @@ public partial class @BattleControls: IInputActionCollection2, IDisposable
                     ""id"": ""da90292f-0aa4-42fc-bb49-b6c52cac1801"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Press"",
+                    ""interactions"": ""MultiTap"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -191,7 +191,7 @@ public partial class @BattleControls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""8cf36411-b375-4af6-a124-9608c1dbb483"",
                     ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
+                    ""interactions"": ""MultiTap"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Combo 1"",

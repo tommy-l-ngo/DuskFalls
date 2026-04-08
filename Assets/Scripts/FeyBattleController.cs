@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-public class FeyController : MonoBehaviour
+public class FeyBattleController : MonoBehaviour
 {
-    [Header("Movement")]
+        [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -14,12 +15,21 @@ public class FeyController : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     private bool isMoving = false;
-    private PlayerControls controls;
+
+    //[Header("BattleControls")]
+    private BattleControls controls;
 
     void Awake()
     {
-        controls = new PlayerControls();
-        
+        controls = new BattleControls();
+        controls.Player.QuickAttack.performed += ctx => {
+            Debug.Log("Quick Attack fired!");
+            animator.SetTrigger("QuickAttack");
+        };
+        controls.Player.Combo1.performed += ctx => {
+            Debug.Log("Combo fired!");
+            animator.SetTrigger("Combo1");
+        };
     }
     void OnEnable()
     {
@@ -73,5 +83,5 @@ public class FeyController : MonoBehaviour
         // Move using direct position change (map vertical input to Z for 3D/top-down)
         Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
         transform.position += movement * moveSpeed * Time.deltaTime;
-      }
+    }
 }
