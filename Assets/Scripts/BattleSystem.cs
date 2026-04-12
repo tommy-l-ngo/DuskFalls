@@ -31,6 +31,8 @@ public class BattleSystem : MonoBehaviour
     private const string WIN_MESSAGE = "The Enemies have been vanquished";
     private const string LOST_MESSAGE = "YOU SUCK";
 
+
+
     void Start()
     {
         partyManager = GameObject.FindFirstObjectByType<PartyManager>();
@@ -100,6 +102,42 @@ public class BattleSystem : MonoBehaviour
             }
         }
     }
+
+
+public void DealDamageToEnemy(GameObject enemyObject, int damage)
+    {
+        //Debug.Log("DealDamageToEnemy called! Looking for: " + enemyObject.name + " in " + enemyBattlers.Count + " enemies");
+        
+        for (int i = 0; i < enemyBattlers.Count; i++)
+    {
+            if (enemyBattlers[i].BattleVisuals.gameObject == enemyObject.transform.root.gameObject)
+            {
+            enemyBattlers[i].CurrHealth -= damage;
+                enemyBattlers[i].BattleVisuals.PlayHitAnimation();
+                Debug.Log(enemyBattlers[i].Name + " took " + damage + " damage! Health: " + enemyBattlers[i].CurrHealth);
+
+            if (enemyBattlers[i].CurrHealth <= 0)
+            {
+                Debug.Log(enemyBattlers[i].Name + " defeated!");
+                enemyBattlers[i].BattleVisuals.PlayDeathAnimation();
+                StartCoroutine(RemoveEnemyAfterAnimation(enemyBattlers[i], enemyObject.transform.root.gameObject));
+                enemyBattlers.RemoveAt(i);
+                }
+            break;
+        }
+    }
+}
+    private IEnumerator RemoveEnemyAfterAnimation(BattleEntities enemy, GameObject enemyObject)
+    {
+        enemyObject.transform.position = enemyObject.transform.position; // freeze position
+        foreach (MonoBehaviour mb in enemyObject.GetComponentsInChildren<MonoBehaviour>())
+        {
+            mb.enabled = false;
+        }
+
+        yield return new WaitForSeconds(6f);
+        Destroy(enemyObject);
+    }
 }
 
 [System.Serializable]
@@ -129,6 +167,7 @@ public class BattleEntities
     {
         BattleVisuals.ChangeHealth(CurrHealth);
     }
+
     
 
 }

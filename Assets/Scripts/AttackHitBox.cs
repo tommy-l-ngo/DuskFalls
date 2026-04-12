@@ -12,7 +12,7 @@ public class AttackHitBox : ScriptableObject
     public enum HitboxShape { Directional, Radius }
     public HitboxShape shape;
 
-    public void TriggerAttack(Transform origin, Vector2 facingDirection, LayerMask enemyLayer)
+    public void TriggerAttack(Transform origin, Vector2 facingDirection, LayerMask enemyLayer, BattleSystem battleSystem)
     {
         Debug.Log("TriggerAttack called!");
         Collider[] hits;
@@ -26,11 +26,11 @@ public class AttackHitBox : ScriptableObject
         {
             hits = Physics.OverlapSphere(origin.position, range, enemyLayer);
         }
-
         Debug.Log("Hits found: " + hits.Length);
         foreach (Collider hit in hits)
         {
             Debug.Log("Hit: " + hit.name);
+            battleSystem.DealDamageToEnemy(hit.gameObject, damage);
         }
     }
 

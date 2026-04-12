@@ -25,7 +25,7 @@ public class BattleVisuals : MonoBehaviour
 
     void Awake()
     {
-//        anim = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
      
     }
 
@@ -57,13 +57,17 @@ public class BattleVisuals : MonoBehaviour
 
     public void PlayAttackAnimation()
     {
-        
+        if (anim != null)
+            anim.SetTrigger("IsAttack");
     }
     public void PlayHitAnimation()
     {
-        
+        if (anim != null)
+            anim.SetTrigger("IsHit");
     }
     public void PlayDeathAnimation()
     {
+        if (anim != null)
+            anim.SetTrigger("IsDeath");
     }
 }

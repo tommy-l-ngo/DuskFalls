@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class FeyBattleController : MonoBehaviour
 {
@@ -20,20 +21,30 @@ public class FeyBattleController : MonoBehaviour
     [SerializeField] private LayerMask enemyLayer;
     private Vector2 facingDirection = Vector2.left;
 
+    [Header("Lives")]
+    [SerializeField] private int maxLives = 3;
+    private int currentLives;
+    [SerializeField] private Image[] lifeIcons;
+    [SerializeField] private Sprite aliveSprite;
+    [SerializeField] private Sprite deadSprite;
     //[Header("BattleControls")]
+    private BattleSystem battleSystem; 
     private BattleControls controls;
 
     void Awake()
     {
-        controls = new BattleControls();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
+        battleSystem = GameObject.FindFirstObjectByType<BattleSystem>();
 
+        controls = new BattleControls();
         controls.Player.QuickAttack.performed += ctx => {
             animator.SetTrigger(quickAttackHitBox.animationTrigger);
-            quickAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer);
+            quickAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer, battleSystem);
         };
         controls.Player.Combo1.performed += ctx => {
             animator.SetTrigger(comboAttackHitBox.animationTrigger);
-            comboAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer);
+            comboAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer, battleSystem);
         };
 
     }
@@ -47,8 +58,30 @@ public class FeyBattleController : MonoBehaviour
 
     void Start()
     {
+
+        Transform healthZone = GameObject.Find("Health Bar Zone").transform;
+
+        lifeIcons = new Image[3];
+
+        for (int i = 0; i < healthZone.childCount; i++)
+        {
+            Transform slot = healthZone.GetChild(i);
+            if (i < 3)
+            {
+                lifeIcons[i] = slot.GetComponent<Image>();
+                slot.gameObject.SetActive(true);
+            }
+            else
+            {
+                slot.gameObject.SetActive(false);
+            }
+        }
+
+
+        currentLives = maxLives;
+        UpdateLivesUI();
+        Debug.Log("BattleSystem found: " + battleSystem);
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
         Debug.Log("Animator found: " + animator);
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
@@ -93,5 +126,31 @@ public class FeyBattleController : MonoBehaviour
         // Move using direct position change (map vertical input to Z for 3D/top-down)
         Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
         transform.position += movement * moveSpeed * Time.deltaTime;
+    }
+    public void LoseLife()
+    {
+        currentLives--;
+        UpdateLivesUI();
+
+        if (currentLives <= 0)
+        {
+            Debug.Log("FEY SUCCUMBED TO DESPAIR");
+        }
+    }
+
+    private void UpdateLivesUI()
+    {
+        for (int i = 0; i < lifeIcons.Length; i++)
+        {
+            lifeIcons[i].sprite = i < currentLives ? aliveSprite : deadSprite;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            LoseLife(); // WILL NEED TO CHANGE THIS WHEN ADDIGN ENEMY UI
+        }
     }
 }

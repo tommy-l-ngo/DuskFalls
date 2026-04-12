@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AttackHitBox
   attackName: BreakingQuick
   damage: 5
-  range: 5
-  width: 5
+  range: 1
+  width: 0.5
   animationTrigger: QuickAttack
   shape: 0

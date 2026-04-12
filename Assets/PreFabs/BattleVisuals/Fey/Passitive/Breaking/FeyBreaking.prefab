@@ -216,6 +216,10 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  maxLives: 3
+  lifeIcons: []
+  aliveSprite: {fileID: 932391671, guid: bd19ffc172f7f1d40a35c8ef8aa94d59, type: 3}
+  deadSprite: {fileID: -212445461, guid: c3a8b8dce31fd4446905763838db0271, type: 3}
 --- !u!114 &7346396197312424611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,8 +232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228aa232e1ad897439963e6632642304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleVisuals
-  healthBar: {fileID: 0}
-  levelText: {fileID: 0}
 --- !u!50 &3669162819296677975
 Rigidbody2D:
   serializedVersion: 5

@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\encountersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\encountersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\feybattlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\feybattlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\feybattlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\feybattlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\attackhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\battlevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\attackhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|c:\\users\\s7war\\duskfalls\\duskfalls\\assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|C:\\Users\\S7War\\DuskFalls\\DuskFalls\\assets\\scripts\\encountersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31808816-1ACB-59FE-1B6B-73C61B4740DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\encountersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "EnemyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyInfo.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:22:08.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BattleVisuals.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleVisuals.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleVisuals.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleVisuals.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleVisuals.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T02:23:52.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleSystem.cs",
+              "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleSystem.cs",
+              "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\BattleSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleSystem.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwHMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T02:19:47.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EncounterSystem.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EncounterSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EncounterSystem.cs",
@@ -38,8 +89,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EncounterSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T02:09:24.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T02:09:24.058Z"
             },
             {
               "$type": "Document",
@@ -49,33 +99,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
               "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\EnemyManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwB4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T02:08:28.357Z"
+              "WhenOpened": "2026-04-12T02:08:28.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AttackHitBox.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\AttackHitBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AttackHitBox.cs",
               "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\AttackHitBox.cs",
               "RelativeToolTip": "Assets\\Scripts\\AttackHitBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T01:55:02.375Z"
+              "WhenOpened": "2026-04-12T01:55:02.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FeyBattleController.cs",
               "DocumentMoniker": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\FeyBattleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FeyBattleController.cs",
               "ToolTip": "C:\\Users\\S7War\\DuskFalls\\DuskFalls\\Assets\\Scripts\\FeyBattleController.cs",
               "RelativeToolTip": "Assets\\Scripts\\FeyBattleController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwE8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAIMAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T01:43:53.372Z"
+              "WhenOpened": "2026-04-12T01:43:53.372Z",
+              "EditorCaption": ""
             }
           ]
         }
