@@ -14,7 +14,11 @@ public class FeyBattleController : MonoBehaviour
 
     [Header("Animation")]
     [SerializeField] private SpriteRenderer spriteRenderer;
-    private bool isMoving = false;
+    private bool isMoving = false; 
+    [SerializeField] private AttackHitBox quickAttackHitBox;
+    [SerializeField] private AttackHitBox comboAttackHitBox;
+    [SerializeField] private LayerMask enemyLayer;
+    private Vector2 facingDirection = Vector2.left;
 
     //[Header("BattleControls")]
     private BattleControls controls;
@@ -22,14 +26,16 @@ public class FeyBattleController : MonoBehaviour
     void Awake()
     {
         controls = new BattleControls();
+
         controls.Player.QuickAttack.performed += ctx => {
-            Debug.Log("Quick Attack fired!");
-            animator.SetTrigger("QuickAttack");
+            animator.SetTrigger(quickAttackHitBox.animationTrigger);
+            quickAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer);
         };
         controls.Player.Combo1.performed += ctx => {
-            Debug.Log("Combo fired!");
-            animator.SetTrigger("Combo1");
+            animator.SetTrigger(comboAttackHitBox.animationTrigger);
+            comboAttackHitBox.TriggerAttack(transform, facingDirection, enemyLayer);
         };
+
     }
     void OnEnable()
     {
@@ -66,11 +72,15 @@ public class FeyBattleController : MonoBehaviour
 
         // Flip sprite based on horizontal movement
         if (moveInput.x > 0)
+        {
             spriteRenderer.flipX = true;
+            facingDirection = Vector2.right;
+        }
         else if (moveInput.x < 0)
+        {
             spriteRenderer.flipX = false;
-
-
+            facingDirection = Vector2.left;
+        }
         Debug.Log("IsMoving: " + isMoving + " | Animator: " + animator); // ADD THIS
 
 

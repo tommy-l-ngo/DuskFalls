@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 1495079647059917251}
   - component: {fileID: 4595403856400987921}
   - component: {fileID: 7909604237884475258}
+  - component: {fileID: 7346396197312424611}
   - component: {fileID: 3669162819296677975}
   m_Layer: 0
   m_Name: FeyBreaking
@@ -208,7 +209,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6919e0db246c3644ca34437d4bda9509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FeyBattleController
+  moveSpeed: 5
   spriteRenderer: {fileID: 0}
+  quickAttackHitBox: {fileID: 11400000, guid: 21abdb1fa4aeb1b41aa8cb8028349f82, type: 2}
+  comboAttackHitBox: {fileID: 11400000, guid: b8be56ff885bb824f9e4fbe7e6544dfc, type: 2}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &7346396197312424611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3495025961580586979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228aa232e1ad897439963e6632642304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleVisuals
+  healthBar: {fileID: 0}
+  levelText: {fileID: 0}
 --- !u!50 &3669162819296677975
 Rigidbody2D:
   serializedVersion: 5
